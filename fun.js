@@ -1,6 +1,6 @@
-var canvas=Raphael(10,10,600,1500);
+var canvas=Raphael(10,10,1500,600);
 
-for (var i=0;i<40;i++){
+for (var i=0;i<70;i++){
   for (var j=0; j<40;j++) {
   var myCircle=canvas.circle(50+i*15,50+j*15,7);
   myCircle.attr("fill","blue");  
