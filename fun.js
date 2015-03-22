@@ -1,7 +1,7 @@
-var canvas=Raphael(10,10,300,300);
+var canvas=Raphael(10,10,750,750);
 
-for (var i=0;i<17;i++){
-  for (var j=0; j<17;j++) {
+for (var i=0;i<50;i++){
+  for (var j=0; j<50;j++) {
   var myCircle=canvas.circle(50+i*15,50+j*15,6);
   myCircle.attr("fill","blue");  
   myCircle.hover(pearl);
