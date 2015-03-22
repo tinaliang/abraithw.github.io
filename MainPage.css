@@ -23,6 +23,33 @@
 	margin: 10px 10px 10px 40px;
 }
 
+.tnd-block {
+	background-color: white;
+	text-align: center;
+
+	border: solid 10px #001A57;
+	padding: 10px 10px;
+	margin: 40px;
+
+	float: left;
+	width: 150px;
+	margin: 10px 10px 10px 40px;
+}
+
+.thrd-block {
+	opacity:0;
+    background-color: white;
+	text-align: center;
+
+	border: solid 10px #001A57;
+	padding: 10px 10px;
+	margin: 40px;
+
+	float: left;
+	width: 20%;
+	margin: 10px 10px 10px 40px;
+}
+
 .emergency {
 	background-color: red;
 	text-align: center;
