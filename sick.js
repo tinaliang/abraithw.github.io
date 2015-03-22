@@ -1,5 +1,4 @@
 function short(el) {
-  el.style.color="red";
   el.style.width= "90%";
   
   var myElements = document.querySelectorAll(".tbshort");
