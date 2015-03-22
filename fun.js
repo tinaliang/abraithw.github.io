@@ -15,7 +15,7 @@ function hi() {
 
 
 function pearl() {
-  var x = Math.floor(Math.random()*1500+1);
+  var x = Math.floor(Math.random()*1300+1);
   var y = Math.floor(Math.random()*600+1);
   var r=Math.floor(Math.random()*20+1);
   var animation=Raphael.animation({cx:x,cy:y},1000,"bounce");
