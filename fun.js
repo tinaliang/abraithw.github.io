@@ -1,5 +1,7 @@
 var canvas=Raphael(10,10,1200,600);
-var text = canvas.text(600, 300, 'Click to restore order');
+var rx=Math.floor(Math.random()*1000+1);
+var ry=Math.floor(Math.random()*500+1);
+var text = canvas.text(rx,ry, 'Click to restore order');
 
 for (var i=0;i<70;i++){
   for (var j=0; j<35;j++) {
