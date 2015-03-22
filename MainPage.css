@@ -87,38 +87,41 @@
 }
 
 a:hover {
-  font-style: oblique;
-  background-color: blue;
+  	font-style: oblique;
+  	background-color: blue;
 }
 
 .tnd-block {
-	background-color: white;
-	border: solid 10px #001A57;
+  	color: #bab3b3;
+	background-color: #001A57;
+	border: solid 2.5px #bab3b3;
 	padding: 1.3% 1.3%;
-  	margin: 10px 0px 10px 40px;
+  	margin: 10px 0px 10px 50px;
   
   	float: left;
-	width: 40%;
-    height: 75px;
+	width: 41.5%;
+    	height: 75px;
   
-    text-align: center;
-    line-height: 75px;
+    	text-align: center;
+    	line-height: 75px;
 	font-size: 125%;
 	font-family: "Georgia", Times, serif;
 }
 
 .thrd-block {
 	opacity:0;
-    background-color: white;
+  	color: #bab3b3;
+	background-color: #001A57;
+	border: solid 2.5px #bab3b3;
 	
-    text-align: center;
-    line-height: 75px;
-    font-size: 125%;
-    font-family: "Georgia", Times, serif;
+    	text-align: center;
+    	line-height: 75px;
+    	font-size: 125%;
+    	font-family: "Georgia", Times, serif;
 
 	float: left;
-	width: 40%;
-    height: 75px;
+	width: 41.5%;
+    	height: 75px;
   
   	border: solid 10px #001A57;
 	padding: 1.3% 1.3%;
