@@ -1,6 +1,6 @@
 function short(el) {
   el.style.color="red";
-  el.style.width= "87.2%";
+  el.style.width= "90%";
   
   var myElements = document.querySelectorAll(".tbshort");
   for (var i = 0; i < myElements.length; i++) {
@@ -16,13 +16,12 @@ function short(el) {
   bye3.parentNode.removeChild(bye3);
   var bye4=document.getElementById("SDAO");
   bye4.parentNode.removeChild(bye4);
-
 }
 
 
 function long(el) {
   el.style.color="red";
-  el.style.width= "87.2%";
+  el.style.width= "90%";
   
   var myElements = document.querySelectorAll(".tblong");
   for (var i = 0; i < myElements.length; i++) {
@@ -34,7 +33,4 @@ function long(el) {
   bye1.parentNode.removeChild(bye1);
   var bye2=document.getElementById("pharm");
   bye2.parentNode.removeChild(bye2);
-
-  
-  
 }
