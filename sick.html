@@ -1,30 +1,34 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Sick</title>
-     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.css">
-	<link rel="stylesheet" type="text/css" href="MainPage.css">
-  </head>
-  <body>
-    <div class="tnd-block" id="short"  onclick="short(this)">
-      Short-Term
-    </div>
-    <div class="tnd-block" id="long" onclick="test(this)">
-     Long-Term
-    </div>
-    <div class="thrd-block" id="wut">
-      STINF
-    </div>
-    <div class="thrd-block">
-      Pharmacies
-    </div>
-    <div class="thrd-block">
-      Urgent Care/ER
-    </div>
-    <div class="thrd-block">
-     Student Health
-    </div>
+<head>
+  <title>Sick</title>
+</head>
+<body>
+  <div class="tnd-block" id="short"  onclick="short(this)">
+    Short-Term
+  </div>
+   <div class="tnd-block" id="long" onclick="long(this)">
+    Long-Term
+  </div>
   
-    <script src="sick.js"></script>
-  </body>
+  
+  <div class="thrd-block tbshort">
+    STINF
+  </div>
+  <div class="thrd-block tbshort">
+    Pharmacies
+  </div>
+  <div class="thrd-block tbshort tblong">
+    Urgent Care/ER
+  </div>
+  <div class="thrd-block tbshort tblong" >
+    Student Health
+  </div>
+  <div class="thrd-block tblong"> Case Management </div>
+  <div class="thrd-block tblong"> CAPS </div>
+  <div class="thrd-block tblong"> Dean's Office </div>
+  <div class="thrd-block tblong"> SDAO </div>
+  
+  <script src="sick.js"></script>
+</body>
 </html>
