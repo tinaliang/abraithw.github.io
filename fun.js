@@ -1,21 +1,19 @@
 var canvas=Raphael(10,10,1200,600);
 var rx=Math.floor(Math.random()*1000+1);
 var ry=Math.floor(Math.random()*500+1);
-var text = canvas.text(rx,ry, 'Click to restore order');
+reset();
 
-for (var i=0;i<70;i++){
-  for (var j=0; j<35;j++) {
+function reset() {
+  canvas.clear();
+  var text = canvas.text(rx,ry, 'Click to restore order');
+  for (var i=0;i<70;i++){
+   for (var j=0; j<35;j++) {
   var myCircle=canvas.circle(50+i*15,50+j*15,7);
-  myCircle.attr("fill","blue");  
-  myCircle.hover(pearl);
-  myCircle.click(hi);
+    myCircle.attr("fill","blue");  
+    myCircle.hover(pearl);
+    }
   }
 }
-
-function hi() {
-  this.attr("fill","red");
-}
-
 
 function pearl() {
   var x = Math.floor(Math.random()*1200+1);
