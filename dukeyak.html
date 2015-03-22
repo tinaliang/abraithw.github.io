@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Duke Supports</title>
+</head>
+
+<body>
+
+  <h1>Duke Supports</h1>
+
+
+
+
+
+
+<script type="text/javascript">
+	
+	var email;
+	function sendMail() {	
+	var HavingABadDay="mailto:"+email;	
+    	var link = HavingABadDay
+             + "?subject=" + escape("You can do it!")
+             + "&body=" + escape(document.getElementById('myText').value)
+    ;
+
+    window.location.href = link;
+}
+	var posts = [];
+
+	function printOut() {
+	email = prompt("What is your email? (If you want people to send uplifting messages to you!)");	
+		var stuff = document.getElementById('yok').value;
+		//posts.push(stuff);
+		document.getElementById("postArea").innerHTML = stuff;
+
+	}
+
+</script>
+
+
+
+
+<div id="singlepost">
+	<input type="text" name="chat" placeholder="How are you feeling today?" id= "yok" size = "150"><br>
+	<button id="callprompt" onclick="printOut()">
+	Post!</button>
+
+
+</div>
+
+
+
+
+
+<div id="answers">
+	<p id="postArea"></p>
+		
+</div>
+
+
+<div id="replies">
+<textarea id="myText">
+    empty
+</textarea>
+<br>
+<button onclick="sendMail(); return false">Reply</button>
+</div>
+
+
+
+
+<div id="smilies">
+<img id="myImage" onclick="changeImage()" src="pic_circle.gif" width="50" height="50">
+<!--make image more opaque-->
+
+<p>You are not alone!</p>
+<img src="cat.gif">;
+<script>
+function changeImage() {
+    var image = document.getElementById('myImage');
+    image.src = "pic_smiley.gif";
+    
+}
+</script>
+
+<script type="text/javascript">
+var counter = 0;
+</script>
+</div>
+
+</body>
+
+</html>
+
+
