@@ -1,4 +1,4 @@
-var canvas=Raphael(10,10,750,750);
+var canvas=Raphael(10,10,600,1500);
 
 for (var i=0;i<40;i++){
   for (var j=0; j<40;j++) {
