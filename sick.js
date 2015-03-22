@@ -1,6 +1,6 @@
 function short(el) {
   el.style.color="red";
-  el.style.width= "100%";
+  el.style.width= "80%";
   
   var myElements = document.querySelectorAll(".thrd-block");
   for (var i = 0; i < myElements.length; i++) {
