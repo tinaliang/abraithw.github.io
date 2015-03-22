@@ -209,14 +209,7 @@ div {
     height: 40px;
   
     text-align: center;
-    text-height: 40px;
+    text-height: 20px;
 	font-size: 75%;
 	font-family: "Georgia", Times, serif;
-  
-    -webkit-columns: 3 200px;
-    -moz-columns: 3 200px;
-    columns: 3 200px;
-    -webkit-column-gap: 1em;
-    -moz-column-gap: 1em;
-    column-gap: 1em;
 }
