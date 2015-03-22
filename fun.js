@@ -1,6 +1,6 @@
 var canvas=Raphael(10,10,1200,600);
-var rx=Math.floor(Math.random()*1000+1);
-var ry=Math.floor(Math.random()*500+1);
+var rx=Math.floor(Math.random()*1000+50);
+var ry=Math.floor(Math.random()*500+50);
 reset();
 
 function reset() {
